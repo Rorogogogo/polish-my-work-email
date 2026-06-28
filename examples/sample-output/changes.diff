@@ -1,0 +1,13 @@
+--- original
++++ better
+@@ -1,2 +1,8 @@
+-Hi Mark, sorry to disturb. As per my understanding the sales dashboard number is wrong, the total revenue showing 1.2M but yesterday we discuss it should be 1.5M. I have doubt the data pipeline is broken since last week. Kindly check and revert by today EOD as the board meeting is tomorrow. Please advise.
++Hi Mark,
++
++Quick one — the sales dashboard total revenue is showing $1.2M, but from our chat yesterday I understood it should be around $1.5M.
++
++When I checked the data pipeline, the last run shows an error from last week, which might explain the gap — though I haven't confirmed that's the cause.
++
++Since the board meeting is tomorrow, would you be able to take a look today if you can? Happy to share what I've found.
++
++Thanks, Robert

@@ -1,0 +1,337 @@
+<div align="center">
+
+# ✉️ Polish My Work Email
+
+**A Claude skill that turns rough, second-language workplace messages into clear, natural Australian English — and hands you ready-to-send files for Email, Teams, and Slack.**
+
+`#claude-skill` · `#esl` · `#business-english` · `#email` · `#teams` · `#slack` · `#australia`
+
+**🌐 Languages:**
+[English](#english) · [简体中文](#简体中文) · [繁體中文](#繁體中文) · [Español](#español) · [日本語](#日本語) · [한국어](#한국어) · [Tiếng Việt](#tiếng-việt) · [ไทย](#ไทย) · [Bahasa Indonesia](#bahasa-indonesia) · [Português](#português)
+
+</div>
+
+---
+
+## English
+
+> Write clear, natural workplace English — not fancy, not robotic. Built for people whose first language isn't English and who work at Australian companies.
+
+You paste a rough message. The skill gives you a clean, ready-to-send version, points out anything risky to assume before you send, shows what changed, and saves the result as files for each platform.
+
+**What it does**
+
+- ✅ Rewrites into **simple, natural Australian** workplace English — not too formal, not too casual, not AI-sounding.
+- ⚠️ **Flags assumptions and risky wording** before you send: hidden deadlines, blame, commitments, ownership, or technical conclusions.
+- 💬 **Channel-aware** formatting: Email (Outlook/Gmail), Teams (Markdown), Slack (mrkdwn — correct `*single*` vs `**double**` asterisks).
+- 📁 **Saves files automatically**, named per platform, so you just copy and paste.
+- 🔍 **Unified `.diff`** so you can see exactly what changed, line by line.
+- 📸 **Screenshot suggestions** with numbered `[ Screenshot 1 ]` placeholders showing exactly where to insert each image.
+- 📊 **Easy-to-scan reply**: the message to send comes first; decisions and changes are shown in small tables.
+- 🎓 **Teaches you as you go** with short, simple notes on why a phrase was changed.
+
+**How to use** — see [Install](#install) and [Example](#example) below.
+
+[⬆ Back to languages](#-polish-my-work-email)
+
+---
+
+## 简体中文
+
+> 用清楚、自然的职场英语沟通——不浮夸，也不像机器人。专为母语不是英语、在澳大利亚公司工作的人打造。
+
+你贴上一段粗糙的消息，技能会给你一个干净、可直接发送的版本，在发送前指出任何"凭猜测就下结论"的风险，告诉你改了什么，并把结果按平台保存成文件。
+
+**它能做什么**
+
+- ✅ 改写成**简单、自然的澳式**职场英语——不过于正式，也不过于随便，不像 AI。
+- ⚠️ 在发送前**标出假设和有风险的措辞**：隐含的截止日期、责任、承诺、归属或技术结论。
+- 💬 **按渠道排版**：邮件（Outlook/Gmail）、Teams（Markdown）、Slack（mrkdwn——正确区分 `*单星号*` 和 `**双星号**`）。
+- 📁 **自动保存文件**，按平台命名，复制粘贴即可。
+- 🔍 **统一 `.diff`**，让你逐行看清改了什么。
+- 📸 **截图建议**，用带编号的 `[ Screenshot 1 ]` 占位符标出每张图该放的位置。
+- 📊 **易于扫读的回复**：要发送的消息排在最前，决定和改动用小表格呈现。
+- 🎓 **边用边学**，附上简短说明，解释为什么这样改。
+
+**如何使用** —— 见下方 [安装](#install) 与 [示例](#example)。
+
+[⬆ 回到语言列表](#-polish-my-work-email)
+
+---
+
+## 繁體中文
+
+> 用清楚、自然的職場英語溝通——不浮誇，也不像機器人。專為母語不是英語、在澳洲公司工作的人打造。
+
+你貼上一段粗糙的訊息，技能會給你一個乾淨、可直接傳送的版本，在傳送前指出任何「憑猜測就下結論」的風險，告訴你改了什麼，並把結果按平台儲存成檔案。
+
+**它能做什麼**
+
+- ✅ 改寫成**簡單、自然的澳式**職場英語——不過於正式，也不過於隨便，不像 AI。
+- ⚠️ 在傳送前**標出假設和有風險的措辭**：隱含的截止日期、責任、承諾、歸屬或技術結論。
+- 💬 **按通路排版**：電郵（Outlook/Gmail）、Teams（Markdown）、Slack（mrkdwn——正確區分 `*單星號*` 和 `**雙星號**`）。
+- 📁 **自動儲存檔案**，按平台命名，複製貼上即可。
+- 🔍 **統一 `.diff`**，讓你逐行看清改了什麼。
+- 📸 **截圖建議**，用帶編號的 `[ Screenshot 1 ]` 佔位符標出每張圖該放的位置。
+- 📊 **易於掃讀的回覆**：要傳送的訊息排在最前，決定和改動用小表格呈現。
+- 🎓 **邊用邊學**，附上簡短說明，解釋為什麼這樣改。
+
+**如何使用** —— 見下方 [安裝](#install) 與 [範例](#example)。
+
+[⬆ 回到語言列表](#-polish-my-work-email)
+
+---
+
+## Español
+
+> Escribe un inglés laboral claro y natural, ni rebuscado ni robótico. Pensado para personas cuyo idioma materno no es el inglés y que trabajan en empresas australianas.
+
+Pegas un mensaje en bruto. La skill te da una versión limpia y lista para enviar, te señala cualquier suposición arriesgada antes de enviar, te muestra qué cambió y guarda el resultado en archivos para cada plataforma.
+
+**Qué hace**
+
+- ✅ Reescribe en inglés laboral **australiano, simple y natural**: ni muy formal, ni muy informal, sin sonar a IA.
+- ⚠️ **Marca suposiciones y frases arriesgadas** antes de enviar: plazos ocultos, culpas, compromisos, responsabilidades o conclusiones técnicas.
+- 💬 **Formato según el canal**: correo (Outlook/Gmail), Teams (Markdown), Slack (mrkdwn, con el asterisco correcto `*simple*` vs `**doble**`).
+- 📁 **Guarda los archivos automáticamente**, con el nombre de cada plataforma.
+- 🔍 **`.diff` unificado** para ver exactamente qué cambió, línea por línea.
+- 📸 **Sugerencias de captura de pantalla** con marcadores numerados `[ Screenshot 1 ]`.
+- 📊 **Respuesta fácil de leer**: el mensaje a enviar va primero; las decisiones y los cambios en tablas.
+- 🎓 **Te enseña mientras la usas**, con notas breves del porqué.
+
+**Cómo usarla** — consulta [Install](#install) y [Example](#example) abajo.
+
+[⬆ Volver a los idiomas](#-polish-my-work-email)
+
+---
+
+## 日本語
+
+> はっきりして自然なビジネス英語を書く。大げさでもなく、機械的でもなく。英語が母語ではなく、オーストラリアの企業で働く人のためのスキルです。
+
+雑な文章を貼り付けると、そのまま送れるきれいな版を返し、送る前に「推測で決めつけている危険な箇所」を指摘し、変更点を見せ、結果をプラットフォームごとのファイルに保存します。
+
+**できること**
+
+- ✅ **シンプルで自然なオーストラリア風**のビジネス英語に書き直し。堅すぎず、くだけすぎず、AIっぽくない。
+- ⚠️ 送る前に**思い込みや危険な表現を指摘**：隠れた締め切り、責任、約束、担当、技術的な結論など。
+- 💬 **チャネルごとの書式**：メール（Outlook/Gmail）、Teams（Markdown）、Slack（mrkdwn——`*一重*` と `**二重**` のアスタリスクを正しく使い分け）。
+- 📁 **ファイルを自動保存**。プラットフォーム名で分かりやすく。
+- 🔍 **統合 `.diff`** で、どこが変わったか一行ずつ確認できる。
+- 📸 **スクリーンショットの提案**。番号付きの `[ Screenshot 1 ]` で挿入位置を明示。
+- 📊 **読みやすい返信**：送る文章が最初に来て、判断と変更点は小さな表で。
+- 🎓 **使いながら学べる**。なぜ変えたかの短い説明つき。
+
+**使い方** — 下の [Install](#install) と [Example](#example) を参照。
+
+[⬆ 言語一覧へ戻る](#-polish-my-work-email)
+
+---
+
+## 한국어
+
+> 분명하고 자연스러운 직장 영어를 쓰세요. 화려하지도, 로봇 같지도 않게. 영어가 모국어가 아니면서 호주 회사에서 일하는 분들을 위한 스킬입니다.
+
+거친 메시지를 붙여넣으면, 바로 보낼 수 있는 깔끔한 버전을 주고, 보내기 전에 "추측으로 단정 짓는" 위험한 부분을 짚어 주며, 무엇이 바뀌었는지 보여 주고, 결과를 플랫폼별 파일로 저장합니다.
+
+**무엇을 하나요**
+
+- ✅ **간단하고 자연스러운 호주식** 직장 영어로 다시 씁니다. 너무 격식 차리지도, 너무 가볍지도, AI 같지도 않게.
+- ⚠️ 보내기 전에 **가정과 위험한 표현을 표시**합니다: 숨은 마감일, 책임, 약속, 담당, 기술적 결론 등.
+- 💬 **채널별 서식**: 이메일(Outlook/Gmail), Teams(Markdown), Slack(mrkdwn — `*별표 하나*` 와 `**별표 둘**` 을 정확히 구분).
+- 📁 **파일 자동 저장**, 플랫폼 이름으로.
+- 🔍 **통합 `.diff`** 로 무엇이 바뀌었는지 한 줄씩 확인.
+- 📸 **스크린샷 제안**, 번호가 매겨진 `[ Screenshot 1 ]` 로 넣을 위치 표시.
+- 📊 **읽기 쉬운 답변**: 보낼 메시지가 먼저, 결정과 변경은 작은 표로.
+- 🎓 **쓰면서 배우기**, 왜 바꿨는지 짧은 설명과 함께.
+
+**사용 방법** — 아래 [Install](#install) 과 [Example](#example) 참고.
+
+[⬆ 언어 목록으로](#-polish-my-work-email)
+
+---
+
+## Tiếng Việt
+
+> Viết tiếng Anh công sở rõ ràng, tự nhiên — không hoa mỹ, không máy móc. Dành cho người không nói tiếng Anh bản ngữ và làm việc ở các công ty Úc.
+
+Bạn dán một tin nhắn còn thô. Skill sẽ đưa ra bản sạch sẽ, sẵn sàng gửi, chỉ ra những chỗ "đoán mò" rủi ro trước khi gửi, cho thấy đã thay đổi gì, và lưu kết quả thành tệp cho từng nền tảng.
+
+**Nó làm gì**
+
+- ✅ Viết lại thành tiếng Anh công sở **Úc, đơn giản và tự nhiên** — không quá trang trọng, không quá xuề xòa, không giống AI.
+- ⚠️ **Đánh dấu giả định và cách diễn đạt rủi ro** trước khi gửi: hạn chót ngầm, đổ lỗi, cam kết, trách nhiệm hay kết luận kỹ thuật.
+- 💬 **Định dạng theo kênh**: Email (Outlook/Gmail), Teams (Markdown), Slack (mrkdwn — phân biệt đúng `*một sao*` và `**hai sao**`).
+- 📁 **Tự động lưu tệp**, đặt tên theo nền tảng.
+- 🔍 **`.diff` hợp nhất** để thấy chính xác đã đổi gì, từng dòng.
+- 📸 **Gợi ý ảnh chụp màn hình** với chỗ đánh số `[ Screenshot 1 ]`.
+- 📊 **Phản hồi dễ đọc**: tin cần gửi để trước, quyết định và thay đổi trong bảng nhỏ.
+- 🎓 **Học khi dùng**, kèm ghi chú ngắn giải thích vì sao đổi.
+
+**Cách dùng** — xem [Install](#install) và [Example](#example) bên dưới.
+
+[⬆ Về danh sách ngôn ngữ](#-polish-my-work-email)
+
+---
+
+## ไทย
+
+> เขียนภาษาอังกฤษในที่ทำงานให้ชัดเจนและเป็นธรรมชาติ ไม่หรูหรา ไม่เหมือนหุ่นยนต์ ออกแบบมาสำหรับคนที่ภาษาอังกฤษไม่ใช่ภาษาแม่และทำงานในบริษัทออสเตรเลีย
+
+คุณวางข้อความที่ยังไม่เรียบร้อย สกิลจะให้เวอร์ชันที่สะอาดพร้อมส่ง ชี้จุดที่ "เดาเอาเอง" ซึ่งเสี่ยงก่อนส่ง บอกว่าแก้อะไรไปบ้าง และบันทึกผลเป็นไฟล์แยกตามแพลตฟอร์ม
+
+**ทำอะไรได้บ้าง**
+
+- ✅ เขียนใหม่เป็นภาษาอังกฤษที่ทำงานแบบ **ออสเตรเลีย เรียบง่ายและเป็นธรรมชาติ** ไม่ทางการเกินไป ไม่กันเองเกินไป ไม่เหมือน AI
+- ⚠️ **ทำเครื่องหมายข้อสันนิษฐานและถ้อยคำที่เสี่ยง** ก่อนส่ง: กำหนดส่งที่แฝงอยู่ การโทษ คำมั่น ความรับผิดชอบ หรือข้อสรุปทางเทคนิค
+- 💬 **จัดรูปแบบตามช่องทาง**: อีเมล (Outlook/Gmail), Teams (Markdown), Slack (mrkdwn — แยก `*ดอกจันเดี่ยว*` กับ `**ดอกจันคู่**` ให้ถูก)
+- 📁 **บันทึกไฟล์อัตโนมัติ** ตั้งชื่อตามแพลตฟอร์ม
+- 🔍 **`.diff` แบบรวม** ให้เห็นว่าแก้อะไรไปทีละบรรทัด
+- 📸 **คำแนะนำภาพหน้าจอ** พร้อมตำแหน่งใส่ภาพที่มีหมายเลข `[ Screenshot 1 ]`
+- 📊 **คำตอบที่อ่านง่าย**: ข้อความที่จะส่งอยู่บนสุด ส่วนการตัดสินใจและการแก้ไขอยู่ในตารางเล็ก
+- 🎓 **เรียนรู้ไปพร้อมใช้งาน** พร้อมโน้ตสั้น ๆ ว่าทำไมจึงแก้
+
+**วิธีใช้** — ดู [Install](#install) และ [Example](#example) ด้านล่าง
+
+[⬆ กลับไปที่รายการภาษา](#-polish-my-work-email)
+
+---
+
+## Bahasa Indonesia
+
+> Tulis bahasa Inggris kerja yang jelas dan alami — tidak berlebihan, tidak kaku seperti robot. Dibuat untuk orang yang bahasa pertamanya bukan Inggris dan bekerja di perusahaan Australia.
+
+Anda menempelkan pesan yang masih kasar. Skill memberi versi rapi yang siap dikirim, menandai hal-hal yang berisiko diasumsikan sebelum dikirim, menunjukkan apa yang berubah, dan menyimpan hasilnya sebagai file untuk tiap platform.
+
+**Apa yang dilakukannya**
+
+- ✅ Menulis ulang ke bahasa Inggris kerja **Australia yang sederhana dan alami** — tidak terlalu formal, tidak terlalu santai, tidak terdengar seperti AI.
+- ⚠️ **Menandai asumsi dan kata-kata berisiko** sebelum dikirim: tenggat tersembunyi, menyalahkan, janji, tanggung jawab, atau kesimpulan teknis.
+- 💬 **Format sesuai kanal**: Email (Outlook/Gmail), Teams (Markdown), Slack (mrkdwn — membedakan `*satu bintang*` dan `**dua bintang**` dengan benar).
+- 📁 **Menyimpan file otomatis**, dinamai per platform.
+- 🔍 **`.diff` terpadu** untuk melihat persis apa yang berubah, baris demi baris.
+- 📸 **Saran tangkapan layar** dengan penanda bernomor `[ Screenshot 1 ]`.
+- 📊 **Balasan mudah dipindai**: pesan yang akan dikirim di atas; keputusan dan perubahan dalam tabel kecil.
+- 🎓 **Belajar sambil memakai**, dengan catatan singkat alasannya.
+
+**Cara pakai** — lihat [Install](#install) dan [Example](#example) di bawah.
+
+[⬆ Kembali ke daftar bahasa](#-polish-my-work-email)
+
+---
+
+## Português
+
+> Escreva um inglês de trabalho claro e natural — nem rebuscado, nem robótico. Feito para quem não tem o inglês como primeira língua e trabalha em empresas australianas.
+
+Você cola uma mensagem rascunhada. A skill devolve uma versão limpa, pronta para enviar, aponta o que é arriscado supor antes de enviar, mostra o que mudou e salva o resultado em arquivos para cada plataforma.
+
+**O que ela faz**
+
+- ✅ Reescreve em inglês de trabalho **australiano, simples e natural** — nem formal demais, nem casual demais, sem parecer IA.
+- ⚠️ **Sinaliza suposições e frases arriscadas** antes de enviar: prazos ocultos, culpa, compromissos, responsabilidades ou conclusões técnicas.
+- 💬 **Formato por canal**: e-mail (Outlook/Gmail), Teams (Markdown), Slack (mrkdwn — com o asterisco certo `*simples*` vs `**duplo**`).
+- 📁 **Salva os arquivos automaticamente**, com o nome de cada plataforma.
+- 🔍 **`.diff` unificado** para ver exatamente o que mudou, linha a linha.
+- 📸 **Sugestões de captura de tela** com marcadores numerados `[ Screenshot 1 ]`.
+- 📊 **Resposta fácil de ler**: a mensagem a enviar vem primeiro; decisões e mudanças em tabelas.
+- 🎓 **Ensina enquanto você usa**, com notas curtas do porquê.
+
+**Como usar** — veja [Install](#install) e [Example](#example) abaixo.
+
+[⬆ Voltar aos idiomas](#-polish-my-work-email)
+
+---
+
+## Install
+
+This is a [Claude](https://claude.com/claude-code) skill. Put the folder where Claude can find it:
+
+```bash
+# For all your projects (global)
+git clone https://github.com/Rorogogogo/polish-my-work-email.git \
+  ~/.claude/skills/polish-my-work-email
+
+# Or just for one project
+git clone https://github.com/Rorogogogo/polish-my-work-email.git \
+  .claude/skills/polish-my-work-email
+```
+
+Then start Claude Code in your project. The skill loads automatically.
+
+## Usage
+
+Just ask in plain language, for example:
+
+- "Polish this email: …"
+- "Make this sound natural for Teams: …"
+- "Is this too direct to send to my manager? …"
+
+You can also call it directly with `/polish-my-work-email`.
+
+The reply leads with the **ready-to-send message**, lists anything to **check before sending**, shows **what changed**, suggests a **screenshot** if it helps, and saves files to an `output/` folder in your working directory.
+
+## Example
+
+**You paste:**
+
+> Hi Mark, sorry to disturb. As per my understanding the sales dashboard number is wrong, total revenue showing 1.2M but yesterday we discuss it should be 1.5M. I have doubt the data pipeline is broken. Kindly check and revert by today EOD as board meeting is tomorrow. Please advise.
+
+**The skill replies:**
+
+### ✅ Ready to send (Email)
+
+> Hi Mark,
+>
+> Quick one — the sales dashboard total revenue is showing **$1.2M**, but from our chat yesterday I understood it should be around **$1.5M**.
+>
+> `[ Screenshot 1 ]`
+>
+> It might be related to the data pipeline, but I haven't confirmed that yet. Since the board meeting is tomorrow, would you be able to take a look today if you can?
+>
+> Thanks, Robert
+
+### ⚠️ Please check before sending
+
+| # | Check this | What I did |
+|---|------------|------------|
+| 1 | The $1.5M figure | Wrote "from our chat I understood" — your memory, not stated as fact |
+| 2 | Pipeline as the cause | Softened to "might be" — confirm before blaming it |
+| 3 | "by today EOD" | Changed to "today if you can" — a hard deadline to your manager can sound pushy |
+
+### ✏️ What I changed
+
+| Original | Better | Why |
+|----------|--------|-----|
+| As per my understanding | from our chat I understood | more natural in AU |
+| I have doubt | it might be | "doubt" means you don't believe it — wrong word here |
+| revert by today EOD | take a look today if you can | "revert" sounds wrong; softer on a manager |
+
+### 📸 Screenshot would help
+
+| # | Where it goes | Capture | Tip | Caption |
+|---|---------------|---------|-----|---------|
+| 1 | After the revenue numbers | The dashboard showing $1.2M | Circle the number; keep the date filter visible | "Dashboard shows $1.2M for this period" |
+
+### 📁 Saved files
+
+See [`examples/sample-output/`](examples/sample-output) for the real files:
+
+| File | For |
+|------|-----|
+| `email.txt` | Outlook / Gmail |
+| `teams.md` | Teams (Markdown) |
+| `slack.txt` | Slack (mrkdwn) |
+| `changes.diff` | every change, in a diff viewer |
+
+## License
+
+[MIT](LICENSE) © Rorogogogo
+
+---
+
+<div align="center">
+
+`#claude` `#claude-code` `#claude-skill` `#anthropic` `#esl` `#english-learning` `#business-english` `#email` `#teams` `#slack` `#outlook` `#workplace-communication` `#australia` `#writing-assistant` `#productivity`
+
+</div>

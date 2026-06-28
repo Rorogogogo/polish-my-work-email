@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Runtime output the skill creates in your working directory
+/output/
+
+# Local Claude settings
+.claude/settings.local.json
