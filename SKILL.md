@@ -139,7 +139,8 @@ Saved to `output/2026-06-28-report-export/`
 
 | File | For |
 |------|-----|
-| email.txt | Outlook / Gmail |
+| email.txt | Outlook / Gmail (plain) |
+| email.rtf | Outlook / Gmail with bold — open in TextEdit, copy, paste |
 | teams.md | Teams (Markdown) |
 | slack.txt | Slack (mrkdwn) |
 | changes.diff | every change, in a diff viewer |
@@ -198,7 +199,8 @@ output/2026-06-28-report-export/
 
 Name each file after the platform it is for:
 
-- `email.txt` — the clean, ready-to-send email version: subject line, greeting, body, and sign-off. Write this when the message suits email.
+- `email.txt` — the clean, ready-to-send email version: subject line, greeting, body, and sign-off. Plain text, for a quick paste.
+- `email.rtf` — the same email with light formatting (see "Email formatting"). Only write this when the email has something worth bolding, such as a key number, date, or short list.
 - `teams.md` — the clean, ready-to-send chat version for Microsoft Teams: short and informal, no greeting or sign-off needed. Use standard Markdown.
 - `slack.txt` — the same chat message for Slack, but written in Slack's mrkdwn flavour.
 - `changes.diff` — the original text versus the better version as a real unified diff, so the user can open it in a diff viewer or paste it where diffs show in colour.
@@ -220,6 +222,19 @@ The two chat tools use different formatting, so the files are not identical. Kee
 | Bullets | `- item` | `• item` |
 
 Use formatting lightly — only bold a key number or deadline, or make a short list. Most messages need very little.
+
+### Email formatting
+
+Email does not understand Markdown, and a plain `.txt` file cannot carry bold. So when an email would read better with a little formatting, also write `email.rtf` (Rich Text Format):
+
+- Keep the wording identical to `email.txt`.
+- Bold only what helps the reader: a key number, an amount, a date, or a deadline. Keep it light.
+- A short list can use real bullets.
+- Do not add colour or large fonts. It should still look like a normal email.
+
+The user opens `email.rtf` in TextEdit (its native format), selects all, copies, and pastes into Outlook or Gmail. The bold survives because it travels in the rich-text layer of the clipboard, not in the plain text.
+
+If the email has nothing worth bolding, skip `email.rtf` — plain `email.txt` is enough.
 
 ### Diff file format
 

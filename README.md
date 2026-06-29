@@ -319,7 +319,8 @@ See [`examples/sample-output/`](examples/sample-output) for the real files:
 
 | File | For |
 |------|-----|
-| `email.txt` | Outlook / Gmail |
+| `email.txt` | Outlook / Gmail (plain text) |
+| `email.rtf` | Outlook / Gmail **with bold** — open in TextEdit, select all, copy, paste |
 | `teams.md` | Teams (Markdown) |
 | `slack.txt` | Slack (mrkdwn) |
 | `changes.diff` | every change, in a diff viewer |
