@@ -1,6 +1,6 @@
 ---
 name: polish-my-work-email
-description: Improve, rewrite, and explain workplace English for an English-as-a-second-language professional in Australia. Use when the user asks to polish, fix, rewrite, improve, or check work emails, Slack or Teams messages, follow-ups, replies to managers or stakeholders, technical explanations, status updates, polite chasing messages, questions, pushback, issue explanations, or similar workplace communication for Australian companies. Also identify unclear points and assumptions before rewriting, especially where guessing could cause serious consequences at work.
+description: Improve, rewrite, and explain workplace English for an English-as-a-second-language professional in Australia. Use when the user asks to polish, fix, rewrite, improve, or check work emails, Slack or Teams messages, follow-ups, replies to managers or stakeholders, technical explanations, status updates, polite chasing messages, questions, pushback, issue explanations, or similar workplace communication for Australian companies. Ask targeted clarifying questions before rewriting when the intended meaning, recipient, action, deadline, blame, commitment, or technical conclusion is unclear.
 ---
 
 # Polish My Work Email
@@ -71,9 +71,68 @@ Avoid:
 - Idioms that ESL speakers may not fully understand
 - Slang unless the user asks for it
 
+## Natural Human Style
+
+The rewritten message should sound like a normal colleague wrote it, not like a template.
+
+Avoid in the send-ready message:
+
+- Dash-heavy sentence structure. Do not use em dashes, en dashes, or hyphen separators as a writing habit. Prefer a full stop, comma, or short new sentence.
+- Labelled lines like "Issue:", "Context:", "Ask:", "Action required:", "Question:", "Next steps:", or "Summary:" unless the user clearly asked for a structured status update.
+- Formulaic openings like "Quick one" when the topic is sensitive, urgent, or detailed.
+- Over-organised writing that turns a normal message into a mini report.
+- Repeating the same sentence starter in nearby lines when the ideas are parallel, for example "You can... You can...". Combine the actions into one natural sentence when it stays clear.
+
+Use labels and tables in the assistant's explanation blocks when they help the user scan, but keep the actual message to send natural and sentence-based.
+
+## Clarifying Question Rules
+
+Do not guess the user's meaning just to produce a polished message. A polished but wrong message is worse than a short question.
+
+Before rewriting, decide whether the missing information is low-risk or high-risk.
+
+Low-risk missing details can be handled with careful wording, placeholders, or the "Please check before sending" table. Examples:
+
+- Exact recipient name
+- Whether the channel is email, Teams, or Slack, when the message clearly works in one likely channel
+- Small grammar uncertainty that does not change the meaning
+- A minor date or number that can be written as a placeholder
+
+High-risk missing details need a question before rewriting. Ask first when guessing could change what the user means or create trouble at work. This includes:
+
+- The main purpose is unclear: asking, informing, apologising, pushing back, chasing, escalating, or disagreeing
+- The recipient relationship is unclear and affects tone: manager, peer, client, vendor, executive, or direct report
+- The requested action is unclear: what the other person should do, by when, or whether they only need to know
+- The original text could imply blame, fault, approval, ownership, commitment, or a deadline
+- A technical cause or conclusion is unclear, especially for outages, bugs, incidents, data issues, releases, security, finance, or customer impact
+- The user's rough text has two possible meanings and both are plausible
+- The user asks for a reply but does not include enough of the previous message to know what they are replying to
+
+When a high-risk detail is missing, use question-first mode:
+
+1. Ask only the smallest number of questions needed, usually 1 or 2.
+2. Make each question concrete and easy to answer.
+3. Do not ask broad questions like "Can you provide more context?" unless there is no better specific question.
+4. Offer quick options when useful, for example: "Do you want this to sound like a gentle reminder, or more urgent?"
+5. Stop after the questions. Do not produce a send-ready rewrite or save files until the user answers.
+
+Good question:
+
+"Do you want Mark to fix this today, or are you only asking him to confirm whether the number is expected?"
+
+Bad question:
+
+"Can you clarify the context?"
+
 ## Response Format
 
 Keep the reply easy to scan. A second-language reader should be able to look once and instantly see three things: **what to send**, **what to check**, and **what changed**.
+
+If question-first mode is needed, do not use the full response format. Use this instead:
+
+### ❓ Quick question before I rewrite
+
+Ask the 1 or 2 questions needed, then stop.
 
 Rules for the whole reply:
 
@@ -82,6 +141,7 @@ Rules for the whole reply:
 - Keep each block short. Use one-line items, not long paragraphs.
 - Use small tables for the list-like blocks (what to check, what changed, saved files). Tables are much easier to scan than bullets.
 - Skip any block that does not apply. Do not pad.
+- The labelled blocks are for the assistant's reply only. Do not put artificial labels inside the "Ready to send" message unless the user asked for that exact structure.
 
 Use these blocks, in this order:
 
@@ -89,7 +149,7 @@ Use these blocks, in this order:
 
 The clean, send-ready rewrite, formatted for the channel (see "Channel Formatting"). Put it in a quote block so it stands out. This is the main output, so it always comes first.
 
-If a screenshot would help, mark exactly where it goes with a placeholder on its own line, like `[ Screenshot 1 ]`. A message can have more than one — number them in order (Screenshot 1, Screenshot 2, ...) at the right spot in the text. Each placeholder must match a row in the "Screenshot would help" table below.
+If a screenshot would help, mark exactly where it goes with a placeholder on its own line, like `[ Screenshot 1 ]`. A message can have more than one. Number them in order (Screenshot 1, Screenshot 2, ...) at the right spot in the text. Each placeholder must match a row in the "Screenshot would help" table below.
 
 If both an email and a chat version make sense, show the most likely one here and note that the other is in the saved files.
 
@@ -97,18 +157,18 @@ Do not add new facts. If a detail is uncertain, use careful wording such as "My 
 
 ### ⚠️ Please check before sending
 
-This is the "your decision" block — the things the user must look at before sending. List only real items: assumptions you made, unclear facts, or wording that could imply a deadline, blame, commitment, ownership, or a technical conclusion.
+This is the "your decision" block. It contains the things the user must look at before sending. List only real items: assumptions you made, unclear facts, or wording that could imply a deadline, blame, commitment, ownership, or a technical conclusion.
 
 Use a small table so it is easy to scan:
 
 | # | Check this | What I did |
 |---|------------|------------|
-| 1 | "today morning" | Wrote "this morning" — is that right? |
-| 2 | Deployment as the cause | Softened to "might be" — confirm before stating it |
+| 1 | "today morning" | Wrote "this morning". Is that right? |
+| 2 | Deployment as the cause | Softened to "might be". Confirm before stating it |
 
 Keep each row to one short line. The number lets the user reply "1 is fine, change 2".
 
-If there is nothing to check, skip the table and write one line: "✅ Nothing to check — safe to send." Do not invent items.
+If there is nothing to check, skip the table and write one line: "✅ Nothing to check. Safe to send." Do not invent items.
 
 Never hide an important assumption inside the rewrite. If it matters, it goes in this table.
 
@@ -140,9 +200,10 @@ Saved to `output/2026-06-28-report-export/`
 | File | For |
 |------|-----|
 | email.txt | Outlook / Gmail (plain) |
-| email.rtf | Outlook / Gmail with bold — open in TextEdit, copy, paste |
-| teams.md | Teams (Markdown) |
-| slack.txt | Slack (mrkdwn) |
+| email.rtf | Outlook / Gmail with bold. Open in TextEdit, copy, paste |
+| teams.rtf | Teams with rich text. Open in TextEdit, copy, paste |
+| slack.rtf | Slack with rich text. Open in TextEdit, copy, paste |
+| markdown.md | Markdown for Confluence, docs, and other Markdown-friendly tools |
 | changes.diff | every change, in a diff viewer |
 
 ## Optional Versions
@@ -187,6 +248,8 @@ The tone and length change between channels, but the facts, intent, and any care
 
 After every polish, also save the result to files so the user can grab them directly. Name the files by where the message will be pasted, not by file type. The user thinks in platforms (email, Teams), not formats like "markdown" or "txt".
 
+Do not write output files in question-first mode. Wait until the user answers, then write the final files.
+
 ### Where to put the files
 
 Create an `output/` folder in the current working directory. Inside it, make one subfolder per message so runs do not overwrite each other. Name it with the date and a short slug from the topic, for example:
@@ -199,29 +262,49 @@ output/2026-06-28-report-export/
 
 Name each file after the platform it is for:
 
-- `email.txt` — the clean, ready-to-send email version: subject line, greeting, body, and sign-off. Plain text, for a quick paste.
-- `email.rtf` — the same email with light formatting (see "Email formatting"). Only write this when the email has something worth bolding, such as a key number, date, or short list.
-- `teams.md` — the clean, ready-to-send chat version for Microsoft Teams: short and informal, no greeting or sign-off needed. Use standard Markdown.
-- `slack.txt` — the same chat message for Slack, but written in Slack's mrkdwn flavour.
-- `changes.diff` — the original text versus the better version as a real unified diff, so the user can open it in a diff viewer or paste it where diffs show in colour.
+- `email.txt`: the clean, ready-to-send email version with subject line, greeting, body, and sign-off. Plain text, for a quick paste.
+- `email.rtf`: the same email with light formatting (see "Email formatting"). Only write this when the email has something worth bolding, such as a key number, date, or short list.
+- `teams.rtf`: the clean, ready-to-send chat version for Microsoft Teams with light rich-text formatting. Keep it short and informal, with no greeting or sign-off unless the user needs one. Use RTF, not Markdown.
+- `slack.rtf`: the clean, ready-to-send chat version for Slack with light rich-text formatting. Keep it short and informal, with no greeting or sign-off unless the user needs one. Use RTF for normal paste into Slack.
+- `markdown.md`: the Markdown version for Confluence, docs, GitHub, Notion, or other Markdown-friendly tools. Use normal Markdown syntax.
+- `changes.diff`: the original text versus the better version as a real unified diff, so the user can open it in a diff viewer or paste it where diffs show in colour.
 
-If only one channel fits the message, write only that channel's file. If you are not sure which channel, write the email plus both chat files. Always write `changes.diff`.
+If only one channel fits the message, write only that channel's file, plus `markdown.md` when a docs-style version would be useful. If you are not sure which channel, write the email files, both chat RTF files, and `markdown.md`. Always write `changes.diff`.
 
 Keep any `[ Screenshot N ]` placeholders in place inside the channel files, each on its own line, so the user knows exactly where to paste each image.
 
-### Teams vs Slack Markdown
+### Rich text chat vs Markdown docs
 
-The two chat tools use different formatting, so the files are not identical. Keep the wording the same and only change the syntax:
+Teams and Slack are best treated as rich-text paste targets. Markdown is still useful for Confluence, docs, GitHub, Notion, and other Markdown-friendly tools. Keep the wording the same, but write different files:
 
-| | Teams (`teams.md`) | Slack (`slack.txt`) |
+| | Teams / Slack (`teams.rtf`, `slack.rtf`) | Markdown (`markdown.md`) |
 |---|---|---|
-| Bold | `**text**` (double) | `*text*` (single) |
-| Italic | `_text_` | `_text_` |
-| Strikethrough | `~~text~~` | `~text~` (single) |
-| Link | `[label](url)` | `<url|label>` |
-| Bullets | `- item` | `• item` |
+| Format | RTF rich text for paste into chat | Markdown text |
+| Bold | RTF bold control words | `**text**` |
+| Links | Plain URL or RTF hyperlink if needed | `[label](url)` |
+| Bullets | Simple readable bullets or hyphen lines | `- item` |
+| Code/tool names | Plain text or light bold | Backticks only when useful |
 
-Use formatting lightly — only bold a key number or deadline, or make a short list. Most messages need very little.
+Use formatting lightly. Only bold a key number, deadline, tool name, or short phrase when it helps. Do not put Markdown syntax such as backticks or `**bold**` in the Teams or Slack RTF versions.
+
+### Chat RTF formatting
+
+Teams and Slack are closest to rich-text paste targets. For chat:
+
+- Write `teams.rtf` and `slack.rtf`, not `teams.md` or `slack.md`.
+- Do not include a subject line.
+- Do not use Markdown syntax such as backticks, `**bold**`, or Markdown links.
+- Keep paragraphs short, with normal blank lines between them.
+- Use light RTF formatting only when it helps, such as bolding a tool name, key date, number, or deadline.
+- The user opens the RTF file in TextEdit, selects all, copies, and pastes into Teams or Slack.
+
+### Markdown formatting
+
+Write `markdown.md` when the user may paste into Confluence, docs, GitHub, Notion, or another Markdown-friendly tool:
+
+- Use normal Markdown syntax, such as `**bold**`, backticks for code/tool names, and Markdown links.
+- Keep the message wording the same as the chat/email version unless the destination needs more context.
+- Keep screenshot placeholders like `[ Screenshot 1 ]` on their own line.
 
 ### Email formatting
 
@@ -232,9 +315,9 @@ Email does not understand Markdown, and a plain `.txt` file cannot carry bold. S
 - A short list can use real bullets.
 - Do not add colour or large fonts. It should still look like a normal email.
 
-The user opens `email.rtf` in TextEdit (its native format), selects all, copies, and pastes into Outlook or Gmail. The bold survives because it travels in the rich-text layer of the clipboard, not in the plain text.
+The user opens `email.rtf` in TextEdit, selects all, copies, and pastes into Outlook or Gmail. The bold survives because it travels in the rich-text layer of the clipboard, not in the plain text.
 
-If the email has nothing worth bolding, skip `email.rtf` — plain `email.txt` is enough.
+If the email has nothing worth bolding, skip `email.rtf`. Plain `email.txt` is enough.
 
 ### Diff file format
 
@@ -283,7 +366,7 @@ Quick capture tools: on Mac, press Cmd+Shift+4 to grab an area; on Windows, pres
 
 ### Caption it
 
-Suggest a short line to put next to the screenshot so the reader knows what they are looking at. For example: "See screenshot below — the error shows up after I click Save."
+Suggest a short line to put next to the screenshot so the reader knows what they are looking at. For example: "See screenshot below. The error shows up after I click Save."
 
 ## Tone Principles
 
@@ -324,6 +407,7 @@ Use these fixes when relevant:
 - Avoid "As per my understanding." Use "From my understanding" or, more naturally, "My understanding is that..."
 - Avoid "Please do the needful." Use "Could you please take care of this?"
 - Avoid "Can we prepone the meeting?" Use "Can we move the meeting earlier?"
+- Avoid "You can install X from A. You can set up Y in B." Use "You can install X from A, and set up Y in B." Reason: repeating "You can" sounds a bit robotic when both actions belong together.
 
 ## Useful Workplace Phrases
 
@@ -382,6 +466,7 @@ When rewriting:
 - Keep the original meaning
 - Do not add new facts
 - Do not assume missing facts unless the assumption is clearly stated
+- Ask a targeted question before rewriting if the missing fact is high-risk under "Clarifying Question Rules"
 - Avoid wording that accidentally commits the user to dates, ownership, approval, blame, or conclusions unless the original text clearly says that
 - If the original message is ambiguous in a way that could matter at work, make the rewrite safer instead of more confident
 - Do not make the message longer than needed
@@ -420,9 +505,10 @@ Before giving the final version, check:
 - Are there any difficult words that can be replaced?
 - Does it still sound like the user?
 - Have unclear points and assumptions been clearly called out?
+- If a missing detail could change the user's meaning, did I ask before rewriting instead of guessing?
 - Could any wording create a serious work consequence if the assumption is wrong?
-- Is it formatted for the right channel (email vs Teams/Slack)?
+- Is it formatted for the right channel (email, Teams/Slack RTF, or Markdown docs)?
 - Would a screenshot make this clearer, and if so, have I said what to capture and how?
-- Have I saved the output files (email, Teams/Slack, diff) and told the user where they are?
+- Have I saved the output files (email, Teams/Slack RTF, Markdown, diff) and told the user where they are?
 
 The final answer should help the user both send the message and slowly improve their English.
