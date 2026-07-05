@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Workplace English",
+      "description": "A ready-to-send workplace English skill for ESL professionals working in foreign companies or overseas teams.",
+      "skills": ["workplace-english-wingman"]
+    }
+  ]
+}

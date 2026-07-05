@@ -6,6 +6,8 @@
 
 **专治中式英文、AI 味和职场废话。** Fix awkward workplace English and get ready-to-send files for Email, Teams, Slack, and Markdown-friendly tools.
 
+[![skills.sh](https://skills.sh/b/Rorogogogo/workplace-english-wingman)](https://skills.sh/Rorogogogo/workplace-english-wingman)
+
 `#claude-skill` · `#esl` · `#business-english` · `#email` · `#teams` · `#slack` · `#australia`
 
 **🌐 Languages:**
@@ -250,19 +252,111 @@ Você cola uma mensagem rascunhada. A skill devolve uma versão limpa, pronta pa
 
 ## Install
 
-This is a [Claude](https://claude.com/claude-code) skill. Put the folder where Claude can find it:
+This is an agent skill. The easiest install path is [skills.sh](https://www.skills.sh/):
 
 ```bash
-# For all your projects (global)
-git clone https://github.com/Rorogogogo/polish-my-work-email.git \
-  ~/.claude/skills/polish-my-work-email
-
-# Or just for one project
-git clone https://github.com/Rorogogogo/polish-my-work-email.git \
-  .claude/skills/polish-my-work-email
+npx skills add Rorogogogo/workplace-english-wingman
 ```
 
-Then start Claude Code in your project. The skill loads automatically.
+That downloads the skill and configures it for supported agents.
+
+There is no build step and no `skill.sh` registration file in this repo. The skill is discovered from `SKILL.md` at the repository root.
+
+### Manual option 1: install globally
+
+Use this if you want the skill available in all projects:
+
+```bash
+git clone https://github.com/Rorogogogo/workplace-english-wingman.git \
+  ~/.claude/skills/workplace-english-wingman
+```
+
+### Manual option 2: install in one project
+
+Use this if you only want the skill available in the current project:
+
+```bash
+git clone https://github.com/Rorogogogo/workplace-english-wingman.git \
+  .claude/skills/workplace-english-wingman
+```
+
+### Manual option 3: download ZIP
+
+If you do not want to use Git:
+
+1. Download this repository as a ZIP from GitHub.
+2. Unzip it.
+3. Rename the folder to `workplace-english-wingman`.
+4. Move it to one of these locations:
+
+```text
+~/.claude/skills/workplace-english-wingman
+```
+
+or:
+
+```text
+<your-project>/.claude/skills/workplace-english-wingman
+```
+
+### Check setup
+
+The final folder should contain `SKILL.md` at the top level:
+
+```text
+workplace-english-wingman/
+  SKILL.md
+  README.md
+  agents/
+  examples/
+```
+
+Then start or restart Claude Code in your project. The skill loads automatically.
+
+If your agent environment reads OpenAI-style metadata, this repo also includes:
+
+```text
+agents/openai.yaml
+```
+
+That file only provides display metadata and a default prompt. It does not replace `SKILL.md`.
+
+### AI-native option: paste into any agent
+
+If your agent does not support skills yet, paste this prompt into ChatGPT, Codex, Cursor, Claude, Gemini, or any other AI agent:
+
+```text
+You are Workplace English Wingman.
+
+Help me rewrite workplace English messages for an English-as-a-second-language professional working in a foreign company or overseas team.
+
+Goal:
+- Make the message simple, clear, natural, professional, and ready to send.
+- Do not make it fancy, overly formal, robotic, or AI-sounding.
+- Keep the meaning the same. Do not add facts.
+
+Before rewriting:
+- Ask 1-2 quick questions if guessing could change the meaning, deadline, owner, blame, commitment, or technical conclusion.
+- If the missing detail is low-risk, use careful wording and list what I should check before sending.
+
+Output format:
+1. Ready to send
+   Put the message first.
+2. Please check before sending
+   List any risky assumptions, unclear facts, deadline/ownership/commitment issues, or wording that could sound like blame.
+3. What changed
+   Show the most useful changes and explain why they sound more natural.
+4. Screenshot would help
+   If a screenshot would make the message clearer, tell me exactly what to screenshot and where to insert it.
+5. Platform versions
+   If useful, provide versions for Email, Teams/Slack, and Markdown. Preserve formatting intent such as bold, italics, links, lists, and screenshot placeholders.
+
+Style:
+- Use normal workplace English.
+- Prefer common words and short sentences.
+- Avoid corporate filler, legal-style wording, academic wording, idioms, and slang.
+- For Australian workplace tone, keep it friendly, direct, and not too formal.
+```
 
 ## Usage
 
@@ -272,7 +366,7 @@ Just ask in plain language, for example:
 - "Make this sound natural for Teams: …"
 - "Is this too direct to send to my manager? …"
 
-You can also call it directly with `/polish-my-work-email`.
+You can also call it directly with `/workplace-english-wingman`.
 
 The reply leads with the **ready-to-send message**, lists anything to **check before sending**, shows **what changed**, suggests a **screenshot** if it helps, and saves files to an `output/` folder in your working directory.
 

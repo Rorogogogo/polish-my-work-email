@@ -1,4 +1,4 @@
 interface:
-  display_name: "Polish My Work Email"
+  display_name: "Workplace English Wingman"
   short_description: "Natural Australian workplace English"
-  default_prompt: "Use $polish-my-work-email to rewrite this message in simple, natural Australian workplace English."
+  default_prompt: "Use $workplace-english-wingman to rewrite this message in simple, natural Australian workplace English."

@@ -1,9 +1,9 @@
 ---
-name: polish-my-work-email
+name: workplace-english-wingman
 description: Improve, rewrite, and explain workplace English for an English-as-a-second-language professional in Australia. Use when the user asks to polish, fix, rewrite, improve, or check work emails, Slack or Teams messages, follow-ups, replies to managers or stakeholders, technical explanations, status updates, polite chasing messages, questions, pushback, issue explanations, or similar workplace communication for Australian companies. Ask targeted clarifying questions before rewriting when the intended meaning, recipient, action, deadline, blame, commitment, or technical conclusion is unclear.
 ---
 
-# Polish My Work Email
+# Workplace English Wingman
 
 ## Role
 
