@@ -4,7 +4,7 @@
 
 # ✉️ 外企/海外打工人英文补丁包
 
-**Polish My Work Email**: a Claude skill for fixing awkward workplace English. 专治中式英文、AI 味和职场废话, with ready-to-send files for Email, Teams, Slack, and Markdown-friendly tools.
+**专治中式英文、AI 味和职场废话。** Fix awkward workplace English and get ready-to-send files for Email, Teams, Slack, and Markdown-friendly tools.
 
 `#claude-skill` · `#esl` · `#business-english` · `#email` · `#teams` · `#slack` · `#australia`
 
